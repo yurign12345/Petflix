@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petflix</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles-hover.css">
+
+</head>
+<body>
+    <div class="menus">
+        <div style="margin-bottom: 5px;" onclick="mostrarMenu()">☰</div>
+        <div onclick="bloquearMenu()">
+            <img src="cadeado-fechado.ico">
+        </div>
+    </div>
+
+    <div id="lateral"></div>
+    
+    <div class="categorias">
+        <div class="container">
+            <div class="animais">
+                <p>Gatos</p>
+                <div onclick="trocarUrl('8PrzGubfkxY')">Aleatório</div>
+                <div onclick="trocarUrl('aMF7q_piabw')">Natureza</div>
+                <div onclick="trocarUrl('pxuBwfNp2wk')">Peixe</div>
+                <div onclick="trocarUrl('E_ykS9TfbUI')">Janela</div>
+            </div>
+            <div class="animais">
+                <p>Cachorros</p>
+                <div onclick="trocarUrl('8PrzGubfkxY')">Aleatório</div>
+                <div onclick="trocarUrl('UxhDlsH0cGU')">Natureza</div>
+                <div onclick="trocarUrl('99d9pG_f8Ao')">Música</div>
+                <div onclick="trocarUrl('t8F8LXm1tYM')">Pessoas</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="video">
+        <iframe src="" width="100%" height="100%" allow="autoplay"></iframe>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

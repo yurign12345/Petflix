@@ -1,0 +1,17 @@
+.menus div:hover{
+    background-color: #444;
+}
+.animais div:hover{
+    background-color: #666;
+    color: #000;
+}
+.categorias:hover{
+    width: 300px;
+    transition: 0.5s;
+}
+.categorias:hover.cadeado{
+    width: 0px;
+}
+.categorias.habilitado{
+    width: 300px;
+}
